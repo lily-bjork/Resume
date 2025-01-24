@@ -282,6 +282,10 @@ ul {
 	margin-top: 30px;
     margin-left: 10px;
 }
+img {
+	width: 230px;
+	height: 260px;
+}
 
 
 .hello_content,
@@ -316,10 +320,7 @@ ul {
 	position: relative;
 	z-index: 1;
 }
-img {
-	width: 40px;
-	height: 50px;
-}
+
 	
 	.content {
 	    text-align: center;		
