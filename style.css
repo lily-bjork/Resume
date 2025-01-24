@@ -190,6 +190,7 @@ ul {
 	}
 	#content_container {
 		width: 699px;
+		min-height: 850px;
 		border-left: 1px solid #403F44;
 		float: left;
 	}
