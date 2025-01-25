@@ -385,10 +385,9 @@ img {
 	}
 	
 	.row img {
-		margin-right: auto;
-		margin-left: 15px;
-		margin-top: 10px;
-		height: auto;
+		margin-left: 25px;
+		margin-top: 20px;
+		height: fit-content;
 	}
 	
 	/* Slideshow container */
