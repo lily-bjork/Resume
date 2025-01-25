@@ -190,7 +190,7 @@ ul {
 	}
 	#content_container {
 		width: 699px;
-		min-height: 850px;
+		min-height: 870px;
 		border-left: 1px solid #403F44;
 		float: left;
 	}
@@ -275,16 +275,16 @@ ul {
 }
 
 .profile_frame{
-	width: 230px;
-	height: 260px;
+	width: 210px;
+	height: 315px;
 	background: black;
 	border: 1px solid #403F44;
 	margin-top: 30px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 img {
-	width: 230px;
-	height: 260px;
+	width: 210px;
+	height: 315px;
 }
 
 
@@ -346,15 +346,19 @@ img {
 
 /* Social links */
 .fa {
-    margin-top: 10px;
-    margin-left: 10px;
-    padding: 15px;
-    font-size: 30px;
-    width: 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+	margin-top: 20px;
+    padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
     }
+	.fa:hover {
+		background: white;
+		color: black;
+
+	}
     .fa-linkedin {
         margin-left: 20px;
         background: #007bb5;
@@ -364,3 +368,45 @@ img {
         background: #000000;
         color: white;
     }
+
+	.mySlides {display: none;}
+	img {vertical-align: middle;}
+	
+	/* Slideshow container */
+	.slideshow-container {
+	  max-width: 1000px;
+	  position: relative;
+	  margin: auto;
+	}
+	
+	
+	/* The dots/bullets/indicators */
+	.dot {
+	  height: 15px;
+	  width: 15px;
+	  margin: 0 2px;
+	  background-color: #bbb;
+	  border-radius: 50%;
+	  display: inline-block;
+	  transition: background-color 0.6s ease;
+	}
+	
+	.active {
+	  background-color: #717171;
+	}
+	
+	/* Fading animation */
+	.fade {
+	  animation-name: fade;
+	  animation-duration: 1.5s;
+	}
+	
+	@keyframes fade {
+	  from {opacity: .4} 
+	  to {opacity: 1}
+	}
+	
+	/* On smaller screens, decrease text size */
+	@media only screen and (max-width: 300px) {
+	  .text {font-size: 11px}
+	}
