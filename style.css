@@ -386,7 +386,7 @@ img {
 	
 	.row img {
 		margin-right: auto;
-		margin-left: auto;
+		margin-left: 15px;
 		margin-top: 10px;
 		height: auto;
 	}
@@ -402,7 +402,7 @@ img {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		height: auto;
+		height:fit-content;
 	}
     
 
