@@ -26,7 +26,7 @@
 	}
 
 .last.block {
-	margin-bottom: 110px;
+	margin-bottom: 10px;
 }
 
 .horizontal_list {
@@ -377,9 +377,13 @@ img {
 		padding: 10px;
 	}
 	
+	.row {
+	
+		margin: 25px 30px;
+	}
 	/* Clear floats after the columns */
 	.row:after {
-		margin: 0 auto;
+		
 		content: "";
 		display: table;
 		clear: both;
