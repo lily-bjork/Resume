@@ -380,7 +380,7 @@ img {
 	  margin: auto;
 	}
 	
-	.slideshow-container img {vertical-align: middle;}
+	.slideshow-container img {vertical-align: middle; }
 	/* The dots/bullets/indicators */
 
 	.slideshow-container * {box-sizing: border-box;}
@@ -389,7 +389,7 @@ img {
 	  height: 15px;
 	  width: 15px;
 	  margin: 0 2px;
-	  background-color: #bbb;
+	  background-color: #6f467c62;
 	  border-radius: 50%;
 	  display: inline-block;
 	  transition: background-color 0.6s ease;
