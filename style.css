@@ -384,7 +384,11 @@ img {
 		clear: both;
 	}
 	
-
+	.row img {
+		margin-right: auto;
+		margin-left: auto;
+		height: auto;
+	}
 	
 	/* Slideshow container */
 	.slideshow-container {
@@ -397,6 +401,7 @@ img {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		height: auto;
 	}
     
 
