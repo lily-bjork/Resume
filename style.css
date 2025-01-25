@@ -370,8 +370,8 @@ img {
     }
 
 
-	.mySlides {display: none;}
-	img {vertical-align: middle;}
+	.slides {display: none;}
+
 	
 	/* Slideshow container */
 	.slideshow-container {
