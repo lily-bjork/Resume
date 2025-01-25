@@ -379,6 +379,7 @@ img {
 	
 	/* Clear floats after the columns */
 	.row:after {
+		margin: 0 auto;
 		content: "";
 		display: table;
 		clear: both;
