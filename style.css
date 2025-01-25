@@ -387,6 +387,7 @@ img {
 	.row img {
 		margin-right: auto;
 		margin-left: auto;
+		margin-top: 10px;
 		height: auto;
 	}
 	
