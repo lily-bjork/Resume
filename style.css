@@ -164,7 +164,7 @@ ul {
 #main_container {
     background-color: #a5b5be;
 	width: 960px;
-	height: auto;
+	min-height: 100%;
 	margin: 0 auto;
 }
 	#header {
@@ -395,6 +395,7 @@ img {
 		margin-top: 20px;
 		height: fit-content;
 		max-height: 300px;
+		border-radius: 10px;
 	}
 	
 	/* Slideshow container */
@@ -410,6 +411,7 @@ img {
 		margin-right: auto;
 		height:fit-content;
 		max-height: 450px;
+		border-radius: 10px;
 	}
     
 
