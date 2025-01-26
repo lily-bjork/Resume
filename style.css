@@ -393,6 +393,7 @@ img {
 		margin-left: 25px;
 		margin-top: 20px;
 		height: fit-content;
+		max-height: 50%;
 	}
 	
 	/* Slideshow container */
@@ -407,6 +408,7 @@ img {
 		margin-left: auto;
 		margin-right: auto;
 		height:fit-content;
+		max-height: 50%;
 	}
     
 
