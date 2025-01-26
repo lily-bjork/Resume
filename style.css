@@ -164,6 +164,7 @@ ul {
 #main_container {
     background-color: #a5b5be;
 	width: 960px;
+	height: auto;
 	margin: 0 auto;
 }
 	#header {
