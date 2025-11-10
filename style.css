@@ -179,7 +179,7 @@ ul {
 		}
 		.header_menu_container {
 			height: 130px;
-			width: 699px;
+			width: 100%;
 			float: left;
 		}
 			.header_menu_container a {
@@ -439,3 +439,4 @@ img {
 	  animation-duration: 1.5s;
 	}
 	
+
